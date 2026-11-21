@@ -18,3 +18,13 @@ Disponibilizar o catálogo de livros de uma livraria através de uma rota HTTP G
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
+   ```
+
+## Execução da aplicação
+Com o ambiente virtual ativado, execute:
+```bash
+python app.py
+```
+
+## Rota disponibilizada
+- **GET** `http://127.0.0.1:5000/livros` — Retorna a lista com os três livros em JSON.
